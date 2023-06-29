@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/huan/.vim'
+let g:netrw_dirhist_0='/home/huan/RSP_final_project/src/.git'
+let g:netrw_dirhist_9='/home/huan/.vim/autoload'
+let g:netrw_dirhist_8='/home/huan/.vim/plugged'
+let g:netrw_dirhist_7='/home/huan/rsp_workspace/src/rsp/hmin10/04/robot_description'
+let g:netrw_dirhist_6='/home/huan/rsp_workspace/src/rsp'
+let g:netrw_dirhist_5='/home/huan/rsp_workspace/src/rsp/hmin10/02/pnp_msgs/action'
+let g:netrw_dirhist_4='/home/huan/rsp_workspace/src'
+let g:netrw_dirhist_3='/home/huan/rsp_workspace/src/rsp/hmin10/02'
+let g:netrw_dirhist_2='/home/huan/rsp/hmin10/01/assignment1_subpub'
