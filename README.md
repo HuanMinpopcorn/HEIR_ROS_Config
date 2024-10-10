@@ -1,5 +1,19 @@
-# Huan_Config_files-
-Configuration file for vim, emacs, and tmux
+# New Desktop Vim and Tmux config instruction 
+
+## Download the vim and tumx
+```
+sudo apt install vim &&
+sudo apt install tmux
+```
+### check your download 
+```
+vim
+```
+```
+tmux
+```
+
+## Configuration file for vim, emacs, and tmux
 
 1. download the my previous config file from github
 
