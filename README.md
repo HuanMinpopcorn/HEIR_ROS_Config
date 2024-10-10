@@ -3,14 +3,8 @@
 ## Download the vim and tumx
 ```
 sudo apt install vim &&
-sudo apt install tmux
-```
-### check your download 
-```
-vim
-```
-```
-tmux
+sudo apt install tmux &&
+sudo apt install git-all
 ```
 
 ## Configuration file for vim, emacs, and tmux
@@ -18,11 +12,15 @@ tmux
 1. download the my previous config file from github
 
 ```jsx
-https://github.com/HuanMinpopcorn/Huan_Config_files-.git
+git clone https://github.com/HuanMinpopcorn/Huan_Config_files-.git
+mv ~/Huan_Config_files-/.vim ~/
+mv ~/Huan_Config_files-/.vimrc ~/
+
 ```
 
-1. manually download the color https://github.com/connorholyday/vim-snazzy
-2. run following in vim
+1. manually download the color
+   ``` https://github.com/connorholyday/vim-snazzy ```
+3. run following in vim
     
     ```jsx
     :source %
