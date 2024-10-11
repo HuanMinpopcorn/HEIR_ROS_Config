@@ -45,7 +45,6 @@ To build Vim on Ubuntu from scratch on a clean system using git:
 	% make reconfig
  ```
 
-
 ```
 sudo apt install tmux &&
 ```
@@ -70,8 +69,23 @@ mv ~/Huan_Config_files-/.vimrc ~/
     :PlugInstall
     ```
     
+4. You complete me install
 
-```cpp
-cd ~/.vim/plugged/Youcompleteme 
-./install.sh --all
+The following assume you're using Ubuntu 24.04.
+Quick start, installing all completers
+
+    Install YCM plugin via Vundle
+    Install CMake, Vim and Python
+
+apt install build-essential cmake vim-nox python3-dev
+
+    Install mono-complete, go, node, java, and npm
+
+apt install mono-complete golang nodejs openjdk-17-jdk openjdk-17-jre npm
+
+    Compile YCM
+
+cd ~/.vim/bundle/YouCompleteMe
+python3 install.py --all
+
 ```
