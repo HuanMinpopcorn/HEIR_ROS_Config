@@ -17,27 +17,33 @@ To build Vim on Ubuntu from scratch on a clean system using git:
 	% make
  ```
 	Run tests to check there are no problems:
-	 ```% make test ```
+```
+	% make test
+```
 
 	Install Vim in /usr/local:
-	 ``` 
+``` 
   	% sudo make install 
-   	```
+```
 
 	Add X windows clipboard support (also needed for GUI):
-	% sudo apt install libxt-dev
+ ```
+ 	% sudo apt install libxt-dev
 	% make reconfig
-
+ ```
 	Add GUI support:
-	% sudo apt install libgtk-3-dev
+ ```	
+ 	% sudo apt install libgtk-3-dev
 	% make reconfig
-
-	Add Python 3 support:
-	% sudo apt install libpython3-dev
+ ```
+	
+ 	Add Python 3 support:
+ ```	
+ 	% sudo apt install libpython3-dev
 	Uncomment this line in Makefile:
 		"CONF_OPT_PYTHON3 = --enable-python3interp"
 	% make reconfig
-
+ ```
 
 
 ```
