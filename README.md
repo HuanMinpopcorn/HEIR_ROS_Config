@@ -75,3 +75,6 @@ To install MATLAB on Linux:
     Default installation folder: /usr/local/MATLAB/R20XXy
 
 To start MATLAB after the installation is complete, see Start MATLAB on Linux Platforms (MATLAB).
+
+# Install Docker
+[https://docs.docker.com/desktop/install/linux/ubuntu/][Docker]
