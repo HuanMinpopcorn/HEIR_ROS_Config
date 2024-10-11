@@ -1,10 +1,18 @@
 # New Desktop Vim and Tmux config instruction 
 
-## Download the vim and tumx
+## Download the vim 9.1 and git
 ```
 sudo apt install vim &&
-sudo apt install tmux &&
+sudo apt install camke &&
+sudo apt install clang &&
+sudo apt install libtool-bin &&
 sudo apt install git-all
+```
+
+
+
+```
+sudo apt install tmux &&
 ```
 
 ## Configuration file for vim, emacs, and tmux
