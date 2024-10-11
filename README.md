@@ -45,7 +45,7 @@ apt install mono-complete golang nodejs openjdk-17-jdk openjdk-17-jre npm
 cd ~/.vim/bundle/YouCompleteMe
 python3 install.py --all
 
-```
+
 
 # Install Vscode
 download the deb
@@ -83,5 +83,5 @@ To start MATLAB after the installation is complete, see Start MATLAB on Linux Pl
 [https://slack.com/downloads/linux][Slack]
 
 ```
-docker run -i -t ubuntu /bin/bash
+ sudo apt-get install ./slack-desktop-4.39.95-amd64.deb 
 ```
