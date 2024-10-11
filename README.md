@@ -1,12 +1,38 @@
 # New Desktop Vim and Tmux config instruction 
 
 ## Download the vim 9.1 and git
-```
-sudo apt install vim &&
-sudo apt install camke &&
-sudo apt install clang &&
-sudo apt install libtool-bin &&
-sudo apt install git-all
+To build Vim on Ubuntu from scratch on a clean system using git:
+	Install tools required to be able to get and build Vim:
+    ```
+	% sudo apt install git
+	% sudo apt install make
+	% sudo apt install clang
+	% sudo apt install libtool-bin
+   ```
+	Build Vim with default features:
+	% git clone https://github.com/vim/vim.git
+	% cd vim/src
+	% make
+
+	Run tests to check there are no problems:
+	% make test
+
+	Install Vim in /usr/local:
+	% sudo make install
+
+	Add X windows clipboard support (also needed for GUI):
+	% sudo apt install libxt-dev
+	% make reconfig
+
+	Add GUI support:
+	% sudo apt install libgtk-3-dev
+	% make reconfig
+
+	Add Python 3 support:
+	% sudo apt install libpython3-dev
+	Uncomment this line in Makefile:
+		"CONF_OPT_PYTHON3 = --enable-python3interp"
+	% make reconfig
 ```
 
 
