@@ -78,3 +78,10 @@ To start MATLAB after the installation is complete, see Start MATLAB on Linux Pl
 
 # Install Docker
 [https://docs.docker.com/desktop/install/linux/ubuntu/][Docker]
+
+# Install Slack
+[https://slack.com/downloads/linux][Slack]
+
+```
+docker run -i -t ubuntu /bin/bash
+```
