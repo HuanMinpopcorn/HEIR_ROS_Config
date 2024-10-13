@@ -39,19 +39,6 @@ sudo apt install ros-dev-tools --yes
 ### source ROS install for this shell
 source /opt/ros/humble/setup.bash
 
-### install ur5 driver
-sudo apt install ros-humble-ur-robot-driver --yes
-
-### make rdkdc workspace
-# do this as current user so it executes properly
-sudo -u $real_user bash -c -l '
-cd ~/
-source /opt/ros/humble/setup.bash
-mkdir -p ~/rdkdc_workspace/src
-cd ~/rdkdc_workspace/src
-git clone https://git.lcsr.jhu.edu/jkim115/rdkdc.git
-cd ../
-colcon build'
 
 ### automatically source files in .bashrc
 # does not add if they are already there
