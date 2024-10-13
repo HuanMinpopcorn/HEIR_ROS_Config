@@ -83,5 +83,13 @@ To start MATLAB after the installation is complete, see Start MATLAB on Linux Pl
 [https://slack.com/downloads/linux][Slack]
 
 ```
- sudo apt-get install ./slack-desktop-4.39.95-amd64.deb 
+ sudo apt-get install ./slack-desktop-4.39.95-amd64.deb
+
+```
+# Install ROS Humble 
+
+```
+./ros_humble_download.sh
+```
+
 ```
