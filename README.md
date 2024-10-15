@@ -92,4 +92,27 @@ To start MATLAB after the installation is complete, see Start MATLAB on Linux Pl
 ./ros_humble_download.sh
 ```
 
+
+# Install Mujoco 
+1. Download the prebuilt binaries from github "mujoco-3.2.3-linux-x86_64.tar.gz"
+2. Extract the download file 
+
 ```
+tar -xvf mujoco-linux-x86_64.tar.gz
+mv mujoco ~/.mujoco/
+
+```
+3. Set Up Environment Variables
+Linux/macOS: Add the following lines to your ~/.bashrc or ~/.zshrc:
+
+bash
+```
+export MUJOCO_HOME=~/.mujoco/
+export PATH=$PATH:$MUJOCO_HOME/bin
+source ~/.bashrc
+```
+
+4. Test the installation 
+```
+simulate ~/.mujoco/model/humanoid/humanoid.xml
+ ```

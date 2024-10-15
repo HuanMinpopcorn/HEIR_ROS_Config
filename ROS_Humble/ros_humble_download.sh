@@ -45,6 +45,4 @@ source /opt/ros/humble/setup.bash
 # do this as current user so it saves properly
 sudo -u $real_user bash -c -l '
 ROS_SOURCING="source /opt/ros/humble/setup.bash"
-if ! grep -qF "$ROS_SOURCING" ~/.bashrc ; then echo "$ROS_SOURCING" >> ~/.bashrc ; fi
-RDKDC_SOUCING="source ~/rdkdc_workspace/install/local_setup.bash"
-if ! grep -qF "$RDKDC_SOUCING" ~/.bashrc ; then echo "$RDKDC_SOUCING" >> ~/.bashrc ; fi'
+if ! grep -qF "$ROS_SOURCING" ~/.bashrc ; then echo "$ROS_SOURCING" >> ~/.bashrc ; fi'
